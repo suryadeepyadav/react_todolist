@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background: hsla(197, 100%, 63%, 1);
+
+background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+    color:rgb(22, 22, 21);
+    height: 400px;
+    width: 600px;
+    border-radius: 8px;
+       
+}
+.container:hover{
+    box-shadow: 8px 8px 3px 0px rgba(116, 113, 113, 0.75);
+-webkit-box-shadow: 8px 8px 3px 0px rgba(78, 79, 79, 0.75);
+-moz-box-shadow: 8px 8px 1px 0px rgba(75, 75, 76, 0.75);
+filter: drop-shadow(5px 8px 4px #616060);
+    
+}
+ h1{
+    align-items: center;
+    justify-content: center;
+}
+.inputbox input{
+    background-color:#fcdfe2;
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.inputbox button{
+    height: 43px;
+    width: 50px;
+    background-color:#fcdfe2;
+    border-radius: 5px;
+    border: none;
+    margin: 4px;
+}
+
+/* css for card 2 */
+.container3{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background: hsla(339, 100%, 55%, 1);
+
+background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, rgb(239, 139, 174) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
+    color:rgb(22, 22, 21);
+    height: 400px;
+    width: 600px;
+    border-radius: 8px;
+
+}
+.container3:hover{
+    box-shadow: 8px 8px 3px 0px rgba(116, 113, 113, 0.75);
+-webkit-box-shadow: 8px 8px 3px 0px rgba(78, 79, 79, 0.75);
+-moz-box-shadow: 8px 8px 1px 0px rgba(75, 75, 76, 0.75);
+filter: drop-shadow(5px 8px 4px #616060);
+    
+}
